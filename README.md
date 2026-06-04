@@ -1,4 +1,4 @@
-# 🤖 AI Job Market Disruption Analyzer
+# AI Job Market Disruption Analyzer
 
 Ever wondered if your skills will still matter in 2 years? Or whether the job you're training for is slowly being eaten by AI?
 
@@ -8,7 +8,7 @@ It pulls 7 years of real data from the Stack Overflow Developer Survey (2019–2
 
 ---
 
-## 💡 What Problem Does This Solve?
+## What Problem Does This Solve?
 
 Students spend years learning skills that go out of demand. Professionals upskill in the wrong direction. No one has a clear, data-backed answer to the question:
 
@@ -18,7 +18,7 @@ This project builds that answer — not from guesswork, but from actual develope
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 You only need three commands to go from zero to a running dashboard.
 
@@ -41,7 +41,7 @@ Then open your browser at `http://localhost:8501` and you're in.
 
 ---
 
-## 📁 How the Project is Organized
+## How the Project is Organized
 
 ```
 ai_job_analyzer/
@@ -71,42 +71,42 @@ ai_job_analyzer/
 
 ---
 
-## 📊 What's Inside the Dashboard
+## What's Inside the Dashboard
 
-### 📈 Emerging Skills
+### Emerging Skills
 Shows the top N fastest-growing skills based on how consistently their
 demand has risen across surveys. Not just "popular right now" — but
 genuinely trending upward year over year.
 
-### 📉 Declining Skills
+### Declining Skills
 The flip side. Skills that developers are quietly abandoning. Useful
 if you want to know what *not* to invest time in.
 
-### 🤖 AI Disruption Index
+### AI Disruption Index
 Type any job title and get an automation risk score from 0 to 100.
 Under 40 is relatively safe. Above 70 is a serious warning sign.
 The score uses fuzzy matching so you don't need to type perfectly —
 "software eng" works just as well as "software engineer".
 
-### 🎯 Career Recommender
+### Career Recommender
 Tell the app what skills you already have and it recommends what to
 learn next — ranked by a survival score that factors in growth trend,
 current market demand, and AI resistance.
 
-### 🏆 Skill Survival Score
+### Skill Survival Score
 Every skill gets a score out of 100, calculated from three things:
 how fast it's growing, how resistant it is to AI replacement, and
 how much demand it currently has. Think of it as a long-term bet
 score for each skill.
 
-### 🔮 Future Forecast
+### Future Forecast
 Pick any skill and see its projected demand up to 2030, shown as a
 chart with a clear historical line and a dashed forecast line. A
 batch forecast table covers the top 15 skills at once.
 
 ---
 
-## 🗂️ Where the Data Comes From
+## Where the Data Comes From
 
 Everything is built on the **Stack Overflow Annual Developer Survey** —
 one of the largest and most respected developer surveys in the world.
@@ -126,7 +126,7 @@ The project handles this automatically so you don't have to worry about it.
 
 ---
 
-## 🧮 How the Models Work
+## How the Models Work
 
 **Skill Growth Predictor**
 Fits a straight line through each skill's yearly demand percentages.
@@ -156,7 +156,7 @@ predictions.
 
 ---
 
-## 🔬 Research Questions This Project Addresses
+## Research Questions This Project Addresses
 
 1. Which technical skills have the highest resistance to AI automation?
 2. Does AI affect entry-level jobs more than senior roles?
@@ -166,7 +166,7 @@ These make solid thesis statements if you're writing a report alongside this.
 
 ---
 
-## 🛠️ Ideas for Taking It Further
+## Ideas for Taking It Further
 
 The project is built to be extended. A few directions worth exploring:
 
@@ -183,7 +183,7 @@ The project is built to be extended. A few directions worth exploring:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | What it's used for |
 |---|---|
@@ -196,7 +196,7 @@ The project is built to be extended. A few directions worth exploring:
 
 ---
 
-## 🙋 Common Questions
+## Common Questions
 
 **Do I need an API key for anything?**
 No. The Stack Overflow survey data is completely free and publicly available.
